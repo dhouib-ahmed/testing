@@ -7,7 +7,7 @@ spec:
   interval: 1m
   url: https://github.com/stefanprodan/podinfo
   ref:
-    tag: v1.0.0
+    branch: v1.x
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
